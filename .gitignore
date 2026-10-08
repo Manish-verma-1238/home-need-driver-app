@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native builds
+android/build/
+android/app/build/
+android/.gradle/
+android/.kotlin/
+android/local.properties
+ios/Pods/
+ios/build/
+*.apk
+*.aab
+*.ipa
+
+# Signing keys & secrets
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+.env
+.env.*
+!.env.example
+google-services.json
+GoogleService-Info.plist
+
+# Metro / bundler
+.metro-health-check*
+*.jsbundle
+
+# Logs & debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Added: extra standard ignores
+android/.cxx/
+android/app/.cxx/
+android/.idea/
+android/captures/
+android/app/release/
+android/app/debug/
+*.orig.*
+.env.local
+npm-debug.log*
+.pnpm-debug.log*
+*.tgz
+coverage/
+.Trashes
+ehthumbs.db
+*.iml

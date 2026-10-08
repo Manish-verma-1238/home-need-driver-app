@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "HomeNeed Driver",
+    "slug": "homeneed-driver",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#14233F",
+    "ios": { "supportsTablet": false, "bundleIdentifier": "in.homeneed.driver", "infoPlist": { "NSLocationWhenInUseUsageDescription": "HomeNeed Driver shares your live location with customers while you deliver." } },
+    "android": { "package": "in.homeneed.driver", "permissions": ["ACCESS_FINE_LOCATION", "ACCESS_COARSE_LOCATION"] },
+    "web": { "bundler": "metro" },
+    "plugins": [["expo-location", { "locationWhenInUsePermission": "HomeNeed Driver shares your live location with customers while you deliver." }], "expo-secure-store"]
+  }
+}
